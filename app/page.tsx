@@ -1,3 +1,9 @@
+import SignIn from "@/components/sign-in";
+
 export default function Home() {
-  return <div>This is Himangshu Nath Barmon</div>;
+  return (
+    <div>
+      <SignIn />
+    </div>
+  );
 }
